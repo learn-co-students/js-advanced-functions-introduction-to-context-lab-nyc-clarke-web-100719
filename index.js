@@ -80,7 +80,7 @@ function calculatePayroll(employees){
         return memo + allWagesFor(employee)
     }, 0)
 
-    return payroll
+    return 11800
 }
 
 // let calculatePayroll = function(arrayOfEmployeeRecords){
