@@ -80,11 +80,8 @@ function calculatePayroll(employees){
         return memo + allWagesFor(employee)
     }, 0)
 
-    return 11800
+    return payroll
+
+    //I think this test is written incorrectly b/c it returns 770 correctly for one teset but not the other 
 }
 
-// let calculatePayroll = function(arrayOfEmployeeRecords){
-//     return arrayOfEmployeeRecords.reduce(function(memo, rec){
-//         return memo + allWagesFor(rec)
-//     }, 0)
-// }
